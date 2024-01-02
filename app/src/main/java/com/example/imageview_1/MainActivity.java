@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void pressed(View view) {
-        int num = rd.nextInt(3)+1;
-        btn.setText(""+num);
-        if (num == 1)
+        int num1 = rd.nextInt(3)+1;
+        btn.setText(""+num1);
+        if (num1 == 1)
             img.setImageResource(R.drawable.cat);
-        if (num == 2)
+        if (num1 == 2)
             img.setImageResource(R.drawable.dog);
-        if (num == 3)
+        if (num1 == 3)
             img.setImageResource(R.drawable.parrot);
     }
 }
